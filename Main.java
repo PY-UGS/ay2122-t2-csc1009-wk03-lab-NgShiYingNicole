@@ -14,11 +14,6 @@ public class Main {
 		double loanAmount = input.nextDouble();
 		
 		Date loanDate = new Date();
-		/*
-		 * TimeZone.setDefault(TimeZone.getTimeZone("EDT"));
-		 * System.out.println(TimeZone.getDefault());
-		 */
-		
 		Loan l1 = new Loan(annualInterestRate,numberOfYears,loanAmount,loanDate);
 		/*
 		 * Loan l1 = new Loan();
